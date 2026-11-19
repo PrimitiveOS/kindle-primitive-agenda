@@ -1,0 +1,10 @@
+[package]
+name = "agenda-kindle"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+agenda-core.workspace = true
+agenda-render.workspace = true
+primitive-app.workspace = true

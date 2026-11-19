@@ -1,0 +1,13 @@
+[package]
+name = "agenda-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+agenda-core.workspace = true
+agenda-render.workspace = true
+primitive-app.workspace = true
+primitive-ui.workspace = true
+
+chrono.workspace = true
