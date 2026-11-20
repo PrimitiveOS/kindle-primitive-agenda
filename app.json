@@ -11,7 +11,7 @@
     "productivity"
   ],
   "description": "Create local appointments and all-day events. View today or the next seven days in date order. Preview and import supported events from a calendar file without connecting a calendar account.",
-  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-agenda",
+  "repo": "https://github.com/PrimitiveOS/kindle-primitive-agenda",
   "licence": "PolyForm-Noncommercial-1.0.0",
   "source": "hosted",
   "icon": "icon.png",
