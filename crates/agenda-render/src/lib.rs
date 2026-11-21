@@ -263,7 +263,7 @@ impl View {
     }
 
     fn draw_home(&self, canvas: &mut Canvas) {
-        header(canvas, "Agenda", "Done");
+        header(canvas, "Agenda", "Exit");
         canvas.button(
             TODAY,
             "Today",
