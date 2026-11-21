@@ -1,39 +1,48 @@
-# Agenda for Kindle
+<div align="center">
 
-A local appointment list for PrimitiveOS. See Today, the next seven days, or a date you choose.
+<img src="icon.png" alt="Agenda icon" width="110">
 
-<table>
-  <tr>
-    <td align="center"><img src="docs/images/agenda-week.png" alt="Appointments grouped by date" width="250"><br><sub>Appointments grouped by date</sub></td>
-    <td align="center"><img src="docs/images/agenda-event-dark.png" alt="An event in dark mode" width="250"><br><sub>An event in dark mode</sub></td>
-    <td align="center"><img src="docs/images/agenda-import.png" alt="Calendar import preview" width="250"><br><sub>Calendar import preview</sub></td>
-  </tr>
-</table>
+# Agenda
 
-The screenshots are from the desktop simulator.
+**See your plans for the week**
 
-## How to use it
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-agenda?label=release)](https://github.com/PrimitiveOS/kindle-primitive-agenda/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-20-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
-- Tap **Add event** and enter a title and date. Choose **All day** or enter a 24-hour time such as `0930`.
-- Open an event to see its date and time or choose **Edit event**.
-- Copy a UTF-8 `.ics` file into **Documents**. Tap **Import .ics**, select the file, and review the counts before importing.
-- Imported appointments use their start date and time. All-day, local, and UTC starts are supported. Recurrences and named time zones are counted as unsupported. Duplicates are counted and existing events are preserved.
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-agenda/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
-Agenda works offline. Import reads at most 256 KB and 128 events per file.
+</div>
 
-## Install
+---
 
-Open **Store** from Primitive Launcher and look for **Agenda**. [Install guide](INSTALL.md)
+Create local appointments and all-day events. View today or the next seven days in date order. Preview and import supported events from a calendar file without connecting a calendar account.
 
-## Simulate on a computer
+## Quick start
 
-Keep [PrimitiveOS Tools](https://github.com/PrimitiveOS/kindle-primtitive-tools) and
-[Primitive Launcher](https://github.com/PrimitiveOS/kindle-primitive-launcher) beside this repository.
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Agenda** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
-```sh
-cargo test --offline --locked --workspace
-cargo run --offline --locked -p agenda-desktop -- build/previews
-```
+## Highlights
+
+- Create local appointments and all-day events.
+- View today or the next seven days in date order.
+- Preview and import supported events from a calendar file without connecting a calendar account.
+
+## Status
+
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
+
+**Current version: 0.1.1.** Changes are in [CHANGELOG.md](CHANGELOG.md).
+
+## Downloads
+
+**20 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md)
 
 ## Licence
 
